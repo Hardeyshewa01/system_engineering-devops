@@ -1,0 +1,30 @@
+Alea iacta estAlea iacta est ("The die is cast") is a Latin phrase attributed by SuetoniusLine 4Line 5./6-third_line
+Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+git add 6-third_line
+git commit -m "Task 6: Display the third line of the file iacta"
+git push
+| Requirement                    | Status                         |   |
+| ------------------------------ | ------------------------------ | - |
+| Script name is `6-third_line`  | ✅                              |   |
+| Uses `#!/bin/bash`             | ✅                              |   |
+| Uses \`head -n 3 iacta         | tail -n 1\`                    | ✅ |
+| Doesn't use `sed`              | ✅                              |   |
+| Script is executable           | ✅                              |   |
+| Committed and pushed to GitHub | 🔄 (pending your confirmation) |   |
+git push origin main
+git branch
+#!/bin/bash
+head -n 3 iacta | tail -n 1
+# Create test file
+cat > iacta
+Alea iacta est
+
+Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+(as iacta alea est) to Julius Caesar on January 10, 49 BC
+<Press Ctrl+D to save>
+./6-third_line
+Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+git add 6-third_line
+git commit -m "Task 6: Display the third line of the file iacta"
+git push
+git push
