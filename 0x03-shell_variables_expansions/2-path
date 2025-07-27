@@ -1,2 +1,2 @@
 #!/bin/bash
-echo /usr/local/sbin
+echo /usr/local
