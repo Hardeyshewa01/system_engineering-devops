@@ -1,2 +1,2 @@
 #!/bin/bash
-2-path contains 1, it should be 2
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/action
