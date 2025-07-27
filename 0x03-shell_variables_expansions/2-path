@@ -1,2 +1,2 @@
 #!/bin/bash
-/hardeyshewa01/local/sbin:/hardeyshewa01/local/bin:/hardeyshewa01/sbin:/hardeyshewa01/bin:/sbin:/bin:/action
+/home/hardeyshewa01/local/sbin:/usr/local/bin:/game/sbin:/usr/bin:/sbin:/bin:/action
