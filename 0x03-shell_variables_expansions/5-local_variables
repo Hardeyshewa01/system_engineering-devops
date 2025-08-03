@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "BASH=$BASH"
-echo "BASHOPTS=$BASHOPTS"
+printf "BASH=%s\nBASHOPTS=%s\n" "$BASH" "$BASHOPTS"
