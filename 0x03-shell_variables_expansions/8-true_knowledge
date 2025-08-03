@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "128\n217"
+printf "128\n217\n"
