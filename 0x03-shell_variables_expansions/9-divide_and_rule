@@ -1,3 +1,3 @@
 #!/bin/bash
-printf "2\n12\n"
-$DIVIDE
+echo -e "$((POWER / DIVIDE))
+$DIVIDE"
