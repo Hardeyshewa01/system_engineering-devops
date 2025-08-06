@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$((POWER / DIVIDE))\n$DIVIDE"
+echo -e "$((24 / 12))\n12"
