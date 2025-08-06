@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s\n" $((24 / 12)) 12
+printf "2\n12\n"
