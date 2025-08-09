@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Lists all running processes with user-oriented info and hierarchy, including processes without a TTY
+
+ps -eo user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command --forest

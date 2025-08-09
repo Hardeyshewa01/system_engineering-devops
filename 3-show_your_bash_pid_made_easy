@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Displays PID and full process path/name of all bash processes without using ps
+
+pgrep -a bash | while read -r pid cmd; do
+  exec_name=$(echo "$cmd" | awk '{print $1}')
+  echo "$pid $exec_name"
+done
