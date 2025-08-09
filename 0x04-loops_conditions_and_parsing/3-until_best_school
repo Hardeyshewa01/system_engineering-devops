@@ -1,9 +1,9 @@
-#!/bin/bash
-# Script that displays "Best School" 10 times using an until loop
+#!/usr/bin/env bash
+# This script keeps asking for Best School until the correct input is given
 
-counter=0
-until [ $counter -ge 10 ]
+input=""
+until [ "$input" = "Best School" ]
 do
-    echo "Best School"
-    ((counter++))
+    read input
 done
+
