@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Lists all processes showing hierarchy and info, including those without TTY
 
-ps -ef --forest
+ps auxf
